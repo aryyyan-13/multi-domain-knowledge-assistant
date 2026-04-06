@@ -7,11 +7,11 @@ module.exports = {
     port: process.env.DB_PORT || 5432,
   },
   anthropic: {
-    apiKey: process.env.ANTHROPIC_API_KEY,
+    apiKey: process.env.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,
     model: process.env.ANTHROPIC_MODEL || 'claude-3-sonnet-20240229',
   },
   jwt: {
-    secret: process.env.JWT_SECRET || 'your-secret-key-change-in-production',
+    secret: process.env.JWT_SECRET || '^aAY)hY[3FU}f_*uzV?mwWru!TJ]cw_(Ver<1A#y<DK8vIWL}L2p=5?wastr&r9@OfB+T|&JbjI-LzyJL@F+[N',
     expiresIn: '7d',
   },
   embedding: {
